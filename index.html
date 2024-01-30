@@ -20,6 +20,21 @@
             text-align: center;
         }
 
+        nav {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        select {
+            padding: 8px;
+            font-size: 16px;
+            border: 1px solid #3498db;
+            border-radius: 4px;
+            background-color: #fff;
+            color: #333;
+        }
+
+
         main {
             max-width: 800px;
             margin: 20px auto;
@@ -52,6 +67,16 @@
     <header>
         <h1>Ma Page HTML</h1>
     </header>
+
+    <nav>
+        <label for="lang">Choisir une langue:</label>
+        <select id="lang" name="lang">
+            <option value="fr">Français</option>
+            <option value="en">English</option>
+            <option value="es">Español</option>
+        </select>
+    </nav>
+
     <main>
         <h2>Bienvenue sur ma page!</h2>
         <p>Ceci est un exemple de page HTML avec un style minimaliste.</p>
