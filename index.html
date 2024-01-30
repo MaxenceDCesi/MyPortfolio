@@ -3,24 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donut</title>
+    <title>Ma Page</title>
     <style>
         body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            font-family: 'Arial', sans-serif;
             margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1, h2, h3 {
+            color: #3498db;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
-    <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-        <!-- Outer circle (donut) -->
-        <circle cx="100" cy="100" r="80" stroke="black" stroke-width="20" fill="transparent" />
-
-        <!-- Inner circle (hole in the donut) -->
-        <circle cx="100" cy="100" r="40" fill="white" />
-    </svg>
+    <header>
+        <h1>Ma Page HTML</h1>
+    </header>
+    <main>
+        <h2>Bienvenue sur ma page!</h2>
+        <p>Ceci est un exemple de page HTML avec un style minimaliste.</p>
+        <p>Vous pouvez personnaliser le contenu selon vos besoins.</p>
+    </main>
+    <footer>
+        &copy; 2024 Ma Page HTML
+    </footer>
 </body>
 </html>
